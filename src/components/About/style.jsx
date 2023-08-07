@@ -13,7 +13,6 @@ const Container = styled.div`
   .cube{
     width: 400px;
     height: 400px;
-    background-color: red;
   }
 
   .about-column{

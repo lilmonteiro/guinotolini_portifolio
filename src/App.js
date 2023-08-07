@@ -2,6 +2,8 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import colors from "./utils/colors.json";
+import Trampos from "./components/Trampos/Trampos";
+import Contato from "./components/Contato/Contato";
 
 function App() {
   return (
@@ -10,12 +12,14 @@ function App() {
         <div className="menu-vertical">
           <a>TRAMPOS </a> ⏺
           <a href="#about">EU </a> ⏺
-          <a>CONTATO</a>
+          <a href="#contact">CONTATO</a>
         </div>
       </div>
 
       <Header />
       <About />
+      <Trampos />
+      <Contato />
     </div>
   );
 }
