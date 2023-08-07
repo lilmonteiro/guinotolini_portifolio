@@ -3,7 +3,8 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 4em 0 1em;
+  padding: 3em 4em 0 1em;
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -35,7 +36,7 @@ const Container = styled.div`
   .designer-tag {
     width: 250px;
     z-index: 5;
-    margin-top: -100px;
+    margin-top: -80px;
     margin-right: -50%;
     transition: all 0.4s ease;
 

@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header";
+import About from "./components/About/About";
 import colors from "./utils/colors.json";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </div>
 
       <Header />
+      <About />
     </div>
   );
 }
