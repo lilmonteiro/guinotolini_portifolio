@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.762ed582.css",
+    "main.js": "/static/js/main.b554ee69.js",
+    "static/media/AcidGrotesk.ttf": "/static/media/AcidGrotesk.b6b87fb4fc645aabf7e2.ttf",
+    "index.html": "/index.html",
+    "main.762ed582.css.map": "/static/css/main.762ed582.css.map",
+    "main.b554ee69.js.map": "/static/js/main.b554ee69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.762ed582.css",
+    "static/js/main.b554ee69.js"
+  ]
+}
