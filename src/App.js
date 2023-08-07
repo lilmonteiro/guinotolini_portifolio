@@ -9,7 +9,7 @@ function App() {
       <div className="menu-container">
         <div className="menu-vertical">
           <a>TRAMPOS </a> ⏺
-          <a>EU </a> ⏺
+          <a href="#about">EU </a> ⏺
           <a>CONTATO</a>
         </div>
       </div>

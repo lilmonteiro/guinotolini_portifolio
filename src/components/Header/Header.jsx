@@ -12,7 +12,9 @@ const Header = () => {
       </div>
       <img className="designer-tag" src="/images/designer.svg" alt="Designer and Art Director" />
 
-      <img className="arrow" src="/images/arrow.svg" />
+      <a className="arrow" href="#about">
+        <img  src="/images/arrow.svg" />
+      </a>
     </Container>
   );
 };

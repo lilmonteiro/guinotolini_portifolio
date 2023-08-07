@@ -22,3 +22,13 @@
   font-family: 'AcidGrotesk';
   font-size: 1.5em;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #3b637d;
+}

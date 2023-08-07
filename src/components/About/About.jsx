@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "./style";
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <div className="cube"></div>
       <div className="about-column">
         <p className="about-text">
