@@ -21,6 +21,7 @@ const Container = styled.div`
 
     a {
       font-weight: 100;
+      color: black;
     }
 
     a:hover {

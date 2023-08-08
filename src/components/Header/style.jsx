@@ -6,6 +6,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-top: 100px;
+  box-sizing: border-box;
 
   .baloons {
     display: flex;
