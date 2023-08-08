@@ -1,10 +1,14 @@
 import React from "react";
 import { Container } from "./style";
+import { Canvas } from "react-three-fiber";
+import { Experience } from "../Experience/Experience";
 
 const About = () => {
   return (
     <Container id="about">
-      <div className="cube" id="container3D"></div>
+      {/* <Canvas>
+        <Experience />
+      </Canvas> */}
       <div className="about-column">
         <p className="about-text">
           Tenho 35 anos, sou pai da Lívia e do Pedro, marido da Ana. Moro em <br /> São José dos

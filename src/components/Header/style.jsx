@@ -3,8 +3,6 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 3em 4em 0 1em;
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -15,9 +13,10 @@ const Container = styled.div`
     justify-content: center;
     width: 100%;
     gap: 10px;
+    margin-left: -100px;
 
     img {
-      height: 35vh;
+      height: 40vh;
       transition: all 0.5s ease;
     }
 
@@ -27,9 +26,8 @@ const Container = styled.div`
   }
 
   .gui-tag {
-    width: 200px;
+    width: 15vw;
     z-index: 5;
-    margin-left: 120px;
     margin-top: auto;
   }
 
@@ -37,7 +35,7 @@ const Container = styled.div`
     width: 250px;
     z-index: 5;
     margin-top: -80px;
-    margin-right: -50%;
+    margin-right: -45%;
     transition: all 0.4s ease;
 
     :hover {
@@ -49,7 +47,6 @@ const Container = styled.div`
     width: 2em;
     margin-top: auto;
     margin-bottom: 20px;
-    margin-left: 120px;
     transition: all 0.4s ease;
     cursor: pointer;
 

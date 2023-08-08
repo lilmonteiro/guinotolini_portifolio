@@ -1,34 +1,51 @@
 .menu-container{
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  background-color: white;
-  height: 100vh;
-  width: 4em;
-  padding: 15px;
-  padding-top: 0;
+  height: fit-content;
+  width: 100%;
+  padding: 40px;
   box-sizing: border-box;
-  border: 4px solid black;
   /* border-left: 0; */
 }
 
 .menu-vertical{
-  position: absolute;
-  writing-mode: vertical-lr;
   display: flex;
-  justify-content: space-evenly;
-  transform: rotate(180deg);
+  justify-content: space-between;
   height: 100%;
   font-family: 'AcidGrotesk';
-  font-size: 1.5em;
+  font-weight: 80;
+  font-size: 1em;
 }
 
-a{
+.menu-vertical a{
+  display: inline-block;
+  position: relative;
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
 
-a:hover{
-  color: #3b637d;
+
+.menu-vertical a::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu-vertical a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.menu-vertical a:hover{
+  /* text-decoration: underline; */
+  color: #000;
+  font-weight: 100;
 }
