@@ -10,26 +10,32 @@ const Container = styled.div`
   height: 100vh;
   gap: 80px;
 
-  .cube{
+  .cube {
     width: 400px;
     height: 400px;
   }
 
-  .about-column{
+  .about-column {
     display: flex;
     flex-direction: column;
     gap: 80px;
     width: 50%;
-    p{
-        margin: 0;
+    p {
+      margin: 0;
     }
   }
 
-  .about-text{
-    font-family: 'AcidGrotesk';
+  .about-text {
+    font-family: "AcidGrotesk";
     font-weight: 60;
     font-size: 2.2em;
     color: white;
+  }
+
+  @media screen and (min-width: 1500px) {
+    .about-text {
+      font-size: 3.5em;
+    }
   }
 `;
 

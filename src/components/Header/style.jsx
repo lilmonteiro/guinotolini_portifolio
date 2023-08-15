@@ -10,34 +10,49 @@ const Container = styled.div`
   box-sizing: border-box;
 
   .baloons {
+    position: relative;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: fit-content;
     gap: 10px;
-    margin-left: -100px;
 
     img {
+      position: relative;
       height: 40vh;
+      max-height: 350px;
       transition: all 0.5s ease;
     }
 
-    img:hover {
-      transform: translateY(-20px) rotate(-5deg);
+    #G:hover {
+      transform: translateY(-20px) rotate(-10deg) scale(1.1);
+    }
+
+    #I:hover {
+      transform: translateY(-20px) rotate(10deg) scale(1.3);
+    }
+    #U:hover {
+      transform: translateY(20px) rotate(-10deg) scale(1.2);
     }
   }
 
   .gui-tag {
     width: 15vw;
+    max-width: 250px;
     z-index: 5;
     margin-top: auto;
   }
 
   .designer-tag {
-    width: 250px;
+    position: absolute !important;
+    width: 15vw;
+    max-width: 250px;
     z-index: 5;
-    margin-top: -80px;
-    margin-right: -45%;
+    top: 50%;
+    left: 85%;
+    bottom: 0;
+    right: 0;
     transition: all 0.4s ease;
 
     :hover {
