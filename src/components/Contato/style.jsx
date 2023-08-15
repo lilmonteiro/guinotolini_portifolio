@@ -28,6 +28,15 @@ const Container = styled.div`
       text-decoration: underline;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .contact-container {
+      font-family: "AcidGrotesk";
+      font-weight: 50;
+      text-align: center;
+      font-size: 1.2em;
+    }
+  }
 `;
 
 export { Container };

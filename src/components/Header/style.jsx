@@ -6,7 +6,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 50px;
   box-sizing: border-box;
 
   .baloons {
@@ -69,6 +69,29 @@ const Container = styled.div`
 
     :hover {
       transform: translateY(-10px);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    padding-top: 0px;
+    height: 95vh;
+    .baloons {
+      img {
+        height: 35vw;
+        max-height: 250px;
+      }
+    }
+
+    .gui-tag {
+      width: 35vw;
+      max-width: 150px;
+    }
+
+    .designer-tag {
+      width: 34vw;
+      max-width: 150px;
+      left: 65%;
+      bottom: 0%;
     }
   }
 `;

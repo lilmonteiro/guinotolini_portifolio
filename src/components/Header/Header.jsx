@@ -3,12 +3,13 @@ import { Container } from "./style";
 
 const Header = () => {
   return (
-    <Container>
+    <Container id="inicio">
       <div className="menu-container">
         <div className="menu-vertical">
-          <a href="#about">01/EU </a>
-          <a href="#trampos">02/TRAMPOS </a>
-          <a href="#contact">03/CONTATOS</a>
+          <a href="#inicio">INÍCIO </a>
+          <a href="#about">EU </a>
+          <a href="#trampos">TRAMPOS </a>
+          <a href="#contact">CONTATOS</a>
         </div>
       </div>
       <img className="gui-tag" src="/images/guilherme.svg" alt="Guilherme Notolini" />

@@ -5,6 +5,7 @@
   height: fit-content;
   width: 100%;
   padding: 25px 40px;
+  z-index: 5;
   box-sizing: border-box;
   /* border-left: 0; */
 }
@@ -16,6 +17,7 @@
   font-family: 'AcidGrotesk';
   font-weight: 80;
   font-size: 1em;
+  z-index: 5;
 }
 
 .menu-vertical a{
@@ -24,6 +26,7 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
+  z-index: 5;
 }
 
 
@@ -45,7 +48,12 @@
   transform-origin: bottom left;
 }
 .menu-vertical a:hover{
-  /* text-decoration: underline; */
   color: rgb(221, 244,100);
   font-weight: 100;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-vertical{
+    font-size: .8em;
+  }
 }

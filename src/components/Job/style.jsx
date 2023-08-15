@@ -34,6 +34,23 @@ const Container = styled.div`
     width: 100%;
     margin-top: -5px;
   }
+
+  @media screen and (max-width: 800px) {
+    .job-texts {
+      padding: 20px;
+    }
+    .title {
+      font-size: 1.5em;
+    }
+
+    .client {
+      font-size: 1em;
+    }
+    .paragraph {
+      font-size: 1em;
+      width: 100%;
+    }
+  }
 `;
 
 export { Container };

@@ -37,6 +37,23 @@ const Container = styled.div`
       font-size: 3.5em;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 50vh;
+
+    .about-column {
+      gap: 20px;
+      width: 100%;
+      
+    }
+    .about-text {
+      font-size: 1.2em;
+    }
+  }
 `;
 
 export { Container };

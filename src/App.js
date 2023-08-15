@@ -12,10 +12,10 @@ function App() {
       <Header />
       <About />
 
-      {/* {jobs.map((job, i) => {
+      {jobs.map((job, i) => {
         return <Job job={job} key={i} />;
-      })} */}
-
+      })}
+      
       <Contato />
 
       <div className="mix"></div>
