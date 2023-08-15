@@ -6,10 +6,10 @@ const Header = () => {
     <Container id="inicio">
       <div className="menu-container">
         <div className="menu-vertical">
-          <a href="#inicio">INÍCIO </a>
-          <a href="#about">EU </a>
-          <a href="#trampos">TRAMPOS </a>
-          <a href="#contact">CONTATOS</a>
+          <a href="#inicio">Início </a>
+          <a href="#about">Eu </a>
+          <a href="#trampos">Trampos </a>
+          <a href="#contact">Contatos</a>
         </div>
       </div>
       <img className="gui-tag" src="/images/guilherme.svg" alt="Guilherme Notolini" />
