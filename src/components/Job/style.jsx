@@ -9,6 +9,7 @@ const Container = styled.div`
   .job-texts {
     padding: 40px;
     box-sizing: border-box;
+    max-width: 1500px;
   }
 
   .title {
@@ -49,6 +50,12 @@ const Container = styled.div`
     .paragraph {
       font-size: 1em;
       width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1500px) {
+    .job-texts {
+      font-size: 1.5em;
     }
   }
 `;

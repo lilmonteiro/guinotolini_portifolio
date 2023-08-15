@@ -19,7 +19,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 80px;
-    width: 50%;
+    width: fit-content;
     p {
       margin: 0;
     }
