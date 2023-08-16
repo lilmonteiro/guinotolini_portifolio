@@ -19,7 +19,7 @@ const About = () => {
           marca <br /> e direção de arte para o digital.
         </p>
         <p className="about-text">
-          Já trabalhei para as marcas:<br /> Intimus/Kotex, Sky, Liberty Seguros, <br />Brastemp, Consul, Flash
+          Já trabalhei para as marcas: Samsung,<br /> Intimus/Kotex, Sky, Liberty Seguros, <br />Brastemp, Consul, Flash
           Benefícios,<br /> The Body Shop, Plenitud e Huggies.
         </p>
       </div>

@@ -2,12 +2,72 @@
   {
     "title": "Divisão total de Tarefas",
     "client": "Brastemp",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor quam, venenatis ut luctus vel, fermentum quis augue. Proin viverra dolor vel erat tincidunt, vel interdum sapien rutrum. Etiam placerat nibh a est sagittis porttitor.",
+    "paragraph": "",
     "images": [
       "/images/jobs/brastemp-divisaototal/0.jpg",
       "/images/jobs/brastemp-divisaototal/1.jpg",
       "/images/jobs/brastemp-divisaototal/2.jpg",
       "/images/jobs/brastemp-divisaototal/3.jpg"
+    ]
+  },
+  {
+    "title": "Canabidiol",
+    "client": "KNZ",
+    "paragraph": "",
+    "images": [
+      "/images/jobs/knz-canabidiou/fullpage-image_04.jpg",
+      "/images/jobs/knz-canabidiou/fullpage-image_05.jpg",
+      "/images/jobs/knz-canabidiou/fullpage-image_06.jpg"
+    ]
+  },
+  {
+    "title": "Joy Crock",
+    "client": "Branding",
+    "paragraph": "",
+    "images": [
+      "/images/jobs/joy-crock/fullpage-image_07.jpg",
+      "/images/jobs/joy-crock/fullpage-image_08.jpg",
+      "/images/jobs/joy-crock/fullpage-image_09.jpg",
+      "/images/jobs/joy-crock/fullpage-image_10.jpg"
+    ]
+  },
+  {
+    "title": "Affagio",
+    "client": "Affagio",
+    "paragraph": "",
+    "images": [
+      "/images/jobs/afagio/fullpage-image_11.jpg",
+      "/images/jobs/afagio/fullpage-image_12.jpg"
+    ]
+  },
+  {
+    "title": "A verdade sobre as mentiras",
+    "client": "",
+    "paragraph": "",
+    "images": [
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_13.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_14.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_15.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_16.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_17.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_18.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_19.jpg",
+      "/images/jobs/averdadesobreasmentiras/fullpage-image_20.jpg"
+    ]
+  },
+  {
+    "title": "Maestra",
+    "client": "Brastemp",
+    "paragraph": "",
+    "images": [
+      "/images/jobs/maestra/fullpage-image_21.jpg",
+      "/images/jobs/maestra/fullpage-image_22.jpg",
+      "/images/jobs/maestra/fullpage-image_23.jpg",
+      "/images/jobs/maestra/fullpage-image_24.jpg",
+      "/images/jobs/maestra/fullpage-image_26.jpg",
+      "/images/jobs/maestra/fullpage-image_27.jpg",
+      "/images/jobs/maestra/fullpage-image_28.jpg",
+      "/images/jobs/maestra/fullpage-image_29.jpg"
     ]
   }
 ]

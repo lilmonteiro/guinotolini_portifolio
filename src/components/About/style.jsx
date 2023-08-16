@@ -28,13 +28,13 @@ const Container = styled.div`
   .about-text {
     font-family: "AcidGrotesk";
     font-weight: 60;
-    font-size: 2.2em;
+    font-size: 2em;
     color: white;
   }
 
   @media screen and (min-width: 1500px) {
     .about-text {
-      font-size: 3.5em;
+      font-size: 2.5em;
     }
   }
 

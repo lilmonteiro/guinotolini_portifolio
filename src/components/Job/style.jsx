@@ -3,18 +3,20 @@ import styled from "styled-components";
 const Container = styled.div`
   background-color: white;
   min-height: 100vh;
+  /* padding: 40px 200px; */
+  box-sizing: border-box;
   width: 100%;
   font-family: "AcidGrotesk";
 
   .job-texts {
-    padding: 40px;
     box-sizing: border-box;
     max-width: 1500px;
+    display: none; //antiga
   }
 
   .title {
     font-weight: 80;
-    font-size: 2.2em;
+    font-size: 2em;
     margin: 20px 0 0 0;
   }
 
@@ -27,8 +29,7 @@ const Container = styled.div`
   .paragraph {
     margin: 20px 0;
     font-weight: 60;
-    font-size: 1.5em;
-    width: 50%;
+    font-size: 1.2em;
   }
 
   .job {
@@ -41,7 +42,7 @@ const Container = styled.div`
       padding: 20px;
     }
     .title {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
     .client {
@@ -54,8 +55,12 @@ const Container = styled.div`
   }
 
   @media screen and (min-width: 1500px) {
+    /* padding: 40px 400px; */
     .job-texts {
-      font-size: 1.5em;
+      font-size: 1.2em;
+    }
+    .title {
+      font-size: 2.5em;
     }
   }
 `;
