@@ -3,19 +3,26 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 0 4em 0 1em;
+  /* padding: 0 4em 0 1em; */
   box-sizing: border-box;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   height: 100vh;
-  gap: 80px;
+  /* gap: 80px; */
 
-  .cube {
-    width: 400px;
-    height: 400px;
+  .canvas {
+    /* width: 50% !important; */
+    /* height: 70% !important; */
+    overflow: visible !important;
+    /* background-color: red; */
+    > * {
+      overflow: visible !important;
+    }
   }
 
   .about-column {
+    position: absolute;
+    right: 20px;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -30,6 +37,7 @@ const Container = styled.div`
     font-weight: 60;
     font-size: 2em;
     color: white;
+    white-space: nowrap;
   }
 
   @media screen and (min-width: 1500px) {
@@ -45,10 +53,13 @@ const Container = styled.div`
     padding: 20px;
     height: 50vh;
 
+    .canvas{
+      display: none;
+    }
+
     .about-column {
       gap: 20px;
-      width: 100%;
-      
+      /* width: 100%; */
     }
     .about-text {
       font-size: 1.2em;
