@@ -4,15 +4,29 @@ import { Canvas } from "react-three-fiber";
 import { Experience } from "../Experience/Experience";
 
 const About = () => {
-  const [x, setX] = useState(-0.5);
-  const [y, setY] = useState(0.5);
-  const [z, setZ] = useState(0.2);
+  const [x, setX] = useState(0);
+  const [y, setY] = useState(0);
+  const [z, setZ] = useState(0);
+  const [cPosition, setCPosition] = useState({ x: 0, y: 0 });
+
   return (
-    <Container id="about">
+    <Container
+      cposition={cPosition}
+      id="about"
+      onMouseMove={(e) => {
+        setCPosition({ x: e.clientX, y: e.clientY });
+      }}
+    >
       <Canvas
         className="canvas"
+        onPointerMove={(e) => {
+          document.querySelector(".pointer-circle").classList.add("active");
+        }}
+        onPointerOut={(e) => {
+          document.querySelector(".pointer-circle").classList.remove("active");
+        }}
       >
-        <Experience px={-2.5} py={0} z={z} d={-1}/> 
+        <Experience px={-2.5} py={0} z={z} d={-1} />
         {/* <Experience px={4} py={0} z={z} d={1} /> */}
       </Canvas>
 
@@ -32,6 +46,10 @@ const About = () => {
           Brastemp, Consul, Flash Benefícios,
           <br /> The Body Shop, Plenitud e Huggies.
         </p>
+      </div>
+
+      <div className="pointer-circle">
+        <p> CLICK ME!</p>
       </div>
     </Container>
   );
