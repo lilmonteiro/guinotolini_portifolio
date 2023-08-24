@@ -41,7 +41,7 @@ const About = () => {
           <br /> visuais, identidades de marca <br /> e direção de arte para o digital.
         </p>
         <p className="about-text">
-          Já trabalhei para as marcas: Samsung,
+          Já trabalhei para as marcas: Consul,
           <br /> Intimus/Kotex, Sky, Liberty Seguros, <br />
           Brastemp, Consul, Flash Benefícios,
           <br /> The Body Shop, Plenitud e Huggies.

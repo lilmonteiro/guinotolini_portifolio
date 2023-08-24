@@ -1,17 +1,47 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container } from "./style";
+import Menu from "../Menu/Menu";
+import dataJobs from "../../utils/jobs.json";
+import { useParams } from "react-router";
 
-const Job = ({ job }) => {
+const Job = () => {
+  const params = useParams();
+  const [job, setJob] = useState(null);
+
+  useEffect(() => {
+    dataJobs.map((job, i) => {
+      if (job.path == params.job) {
+        setJob(job);
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    console.log(job);
+  }, [job]);
+
   return (
     <Container id="trampos">
-      <div className="job-texts">
-        <p className="title">{job.title}</p>
-        <p className="client">{job.client}</p>
-        <p className="paragraph" dangerouslySetInnerHTML={{ __html: job.paragraph }}></p>
+      <Menu />
+      <div className="job-content">
+        {job && <p className="title">{job.title}</p>}
+
+        {job &&
+          job.content.map((content, i) => {
+            if (content.type == "p") {
+              return (
+                <p
+                  key={i}
+                  className="paragraph"
+                  dangerouslySetInnerHTML={{ __html: content.value }}
+                ></p>
+              );
+            }
+            if (content.type == "img") {
+              return <img key={i} className="job" src={content.value} />;
+            }
+          })}
       </div>
-      {job.images.map((img) => {
-        return <img className="job" src={img} />;
-      })}
     </Container>
   );
 };

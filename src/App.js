@@ -12,16 +12,8 @@ function App() {
     <div className="App" style={{ backgroundColor: colors["main-background"] }}>
       <Header />
       <About />
-
       <Thumb />
-
-      {jobs.map((job, i) => {
-        return <Job job={job} key={i} />;
-      })}
-      
       <Contato />
-
-      <div className="mix"></div>
     </div>
   );
 }

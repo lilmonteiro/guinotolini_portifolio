@@ -8,37 +8,35 @@ const Container = styled.div`
   width: 100%;
   font-family: "AcidGrotesk";
 
-  .job-texts {
+  .job-content {
     box-sizing: border-box;
     max-width: 1500px;
-    display: none; //antiga
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    box-sizing: border-box;
   }
 
   .title {
     font-weight: 80;
     font-size: 2em;
-    margin: 20px 0 0 0;
-  }
-
-  .client {
-    font-weight: 200;
-    font-size: 1.2em;
-    margin: 5px 0 0 0;
+    /* margin: 10 0px 0 0 0; */
   }
 
   .paragraph {
     margin: 20px 0;
     font-weight: 60;
     font-size: 1.2em;
+    padding: 30px 0 ;
+    border-bottom: 1px solid #777777;
   }
 
   .job {
     width: 100%;
-    margin-top: -5px;
   }
 
   @media screen and (max-width: 800px) {
-    .job-texts {
+    .job-content {
       padding: 20px;
     }
     .title {
@@ -56,7 +54,7 @@ const Container = styled.div`
 
   @media screen and (min-width: 1500px) {
     /* padding: 40px 400px; */
-    .job-texts {
+    .job-content {
       font-size: 1.2em;
     }
     .title {

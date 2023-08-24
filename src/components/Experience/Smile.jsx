@@ -34,7 +34,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       // dispose={null}
       className={"group3d"}
       ref={refGroup}
-      scale={0.56}
+      scale={0.45}
       position={[-0.8, -1.5, 0]}
       rotation={[0.2, 0.1, 0.1]}
      

@@ -1,17 +1,11 @@
 import React from "react";
 import { Container } from "./style";
+import Menu from "../Menu/Menu";
 
 const Header = () => {
   return (
     <Container id="inicio">
-      <div className="menu-container">
-        <div className="menu-vertical">
-          <a href="#inicio">Início </a>
-          <a href="#about">Eu </a>
-          <a href="#trampos">Trampos </a>
-          <a href="#contact">Contatos</a>
-        </div>
-      </div>
+      <Menu />
       {/* <img className="gui-tag" src="/images/guilherme.svg" alt="Guilherme Notolini" /> */}
       <div className="baloons">
         <img id="G" src="/images/G.png" alt="GUI" />

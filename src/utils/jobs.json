@@ -1,73 +1,46 @@
 [
   {
-    "title": "Divisão total de Tarefas",
-    "client": "Brastemp",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/brastemp-divisaototal/0.jpg",
-      "/images/jobs/brastemp-divisaototal/1.jpg",
-      "/images/jobs/brastemp-divisaototal/2.jpg",
-      "/images/jobs/brastemp-divisaototal/3.jpg"
-    ]
-  },
-  {
-    "title": "Canabidiol",
-    "client": "KNZ",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/knz-canabidiou/fullpage-image_04.jpg",
-      "/images/jobs/knz-canabidiou/fullpage-image_05.jpg",
-      "/images/jobs/knz-canabidiou/fullpage-image_06.jpg"
-    ]
-  },
-  {
-    "title": "Joy Crock",
-    "client": "Branding",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/joy-crock/fullpage-image_07.jpg",
-      "/images/jobs/joy-crock/fullpage-image_08.jpg",
-      "/images/jobs/joy-crock/fullpage-image_09.jpg",
-      "/images/jobs/joy-crock/fullpage-image_10.jpg"
-    ]
-  },
-  {
-    "title": "Affagio",
-    "client": "Affagio",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/afagio/fullpage-image_11.jpg",
-      "/images/jobs/afagio/fullpage-image_12.jpg"
-    ]
-  },
-  {
-    "title": "A verdade sobre as mentiras",
+    "path": "kn2",
+    "title": "KN2",
     "client": "",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_13.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_14.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_15.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_16.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_17.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_18.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_19.jpg",
-      "/images/jobs/averdadesobreasmentiras/fullpage-image_20.jpg"
-    ]
-  },
-  {
-    "title": "Maestra",
-    "client": "Brastemp",
-    "paragraph": "",
-    "images": [
-      "/images/jobs/maestra/fullpage-image_21.jpg",
-      "/images/jobs/maestra/fullpage-image_22.jpg",
-      "/images/jobs/maestra/fullpage-image_23.jpg",
-      "/images/jobs/maestra/fullpage-image_24.jpg",
-      "/images/jobs/maestra/fullpage-image_26.jpg",
-      "/images/jobs/maestra/fullpage-image_27.jpg",
-      "/images/jobs/maestra/fullpage-image_28.jpg",
-      "/images/jobs/maestra/fullpage-image_29.jpg"
+    "content": [
+      {
+        "type": "p",
+        "value": " Da pétala da folha de Canabis extraímos <br/> a figura geométrica prisma triangular, <br/>  que dá origem ao sistema visual KN2."
+      },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_01.jpg" },
+      {
+        "type": "p",
+        "value": "Logo: O produto central da marca KN2 é o CBD <br/> (óleo extraído a partir da compressão da Canabis). <br/> Ao comprimir a forma geométrica demos <br/> origem a base do nosso símbolo gráfico"
+      },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_02.jpg" },
+      {
+        "type": "p",
+        "value": "A tipografia KN2 também foi construída a partir da pétala da <br/> canabis. Assim como a submarca Plant (Associação Canábica)."
+      },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_03.jpg" },
+      {
+        "type": "p",
+        "value": "Fomos buscar nossas cores na planta de Canabis e em seus insumos de cultivo. As <br/> cores contrastantes transmitem intensidade e as variações garantem a versatilidade para o projeto"
+      },
+      { "type": "img", "value": "/images/jobs/kn2/color_motion.gif" },
+      {
+        "type": "p",
+        "value": "A utilização de Google font para um <br/> integração omnichannel mais facilitada"
+      },
+      { "type": "img", "value": "/images/jobs/kn2/tipografia_motion.gif" },
+      {
+        "type": "p",
+        "value": "Composição do símbolo gráfico com todos seus elementos"
+      },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_06.jpg" },
+      {
+        "type": "p",
+        "value": "Embalagem e rótulo dos óleos CBD (Full e broad spectrum)"
+      },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_07.jpg" },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_08.jpg" },
+      { "type": "img", "value": "/images/jobs/kn2/KN2_09.jpg" }
     ]
   }
 ]
