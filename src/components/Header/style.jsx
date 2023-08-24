@@ -10,6 +10,7 @@ const Container = styled.div`
   box-sizing: border-box;
 
   .baloons {
+    margin-top: auto;
     position: relative;
     /* background-color: red; */
     display: flex;
@@ -41,7 +42,6 @@ const Container = styled.div`
     width: 15vw;
     max-width: 250px;
     z-index: 5;
-    margin-top: auto;
   }
 
   .designer-tag {

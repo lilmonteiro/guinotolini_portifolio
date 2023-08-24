@@ -9,10 +9,11 @@ const Container = styled.div`
   justify-content: space-between;
   height: 100vh;
   position: relative;
+  background-color: white;
   /* gap: 80px; */
 
   .canvas {
-    width: 50% !important;
+    width: 70% !important;
     /* height: 70% !important; */
     overflow: visible !important;
     /* background-color: red; */
@@ -35,9 +36,9 @@ const Container = styled.div`
 
   .about-text {
     font-family: "AcidGrotesk";
-    font-weight: 60;
+    font-weight: 40;
     font-size: 2em;
-    color: white;
+  color: black;
     white-space: nowrap;
   }
 
@@ -45,7 +46,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff9f;
+    background-color: #89abb86c;
     width: 100px;
     height: 100px;
     position: absolute;

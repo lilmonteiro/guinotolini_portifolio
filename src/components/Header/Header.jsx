@@ -12,7 +12,7 @@ const Header = () => {
           <a href="#contact">Contatos</a>
         </div>
       </div>
-      <img className="gui-tag" src="/images/guilherme.svg" alt="Guilherme Notolini" />
+      {/* <img className="gui-tag" src="/images/guilherme.svg" alt="Guilherme Notolini" /> */}
       <div className="baloons">
         <img id="G" src="/images/G.png" alt="GUI" />
         <img id="U" src="/images/U.png" alt="" />
