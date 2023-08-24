@@ -17,7 +17,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       refEyeOne.current.rotation.x += 0.2 * delta;
       refEyeOne.current.rotation.y += -0.2 * delta;
 
-      refEyeTwo.current.rotation.x += -0.5 * delta;
+      refEyeTwo.current.rotation.x += -0.2 * delta;
       refEyeTwo.current.rotation.y += 0.2 * delta;
 
       groupEyes.current.rotation.y += 0.1 * delta;
@@ -34,9 +34,9 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       // dispose={null}
       className={"group3d"}
       ref={refGroup}
-      scale={0.6}
+      scale={0.56}
       position={[-0.8, -1.5, 0]}
-      rotation={[0, 0.5, 0.5]}
+      rotation={[0.2, 0.1, 0.1]}
      
       onClick={() => {
         setIncrease(360);
@@ -52,7 +52,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
         rotation={[Math.PI / 2, 0, 0]}
         ref={refSmile}
       >
-        <meshStandardMaterial attach="material" roughness={0.1} metalness={0.8} />
+        <meshStandardMaterial attach="material" roughness={0.1} metalness={0.9} />
       </mesh>
 
       <group ref={groupEyes}>
@@ -62,7 +62,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
           position={[2.659, 4.585, 0]}
           ref={refEyeTwo}
         >
-          <meshStandardMaterial attach="material" roughness={0.1} metalness={0.8} />
+          <meshStandardMaterial attach="material" roughness={0.1} metalness={0.9} />
         </mesh>
         <mesh
           geometry={nodes.smile_high002_fora002.geometry}
@@ -70,7 +70,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
           position={[-2.475, 4.585, 0]}
           ref={refEyeOne}
         >
-          <meshStandardMaterial attach="material" roughness={0.1} metalness={0.8} />
+          <meshStandardMaterial attach="material" roughness={0.1} metalness={0.9} />
         </mesh>
       </group>
     </group>
