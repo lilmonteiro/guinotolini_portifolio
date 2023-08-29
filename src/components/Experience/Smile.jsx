@@ -20,10 +20,10 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       refEyeTwo.current.rotation.x += -0.2 * delta;
       refEyeTwo.current.rotation.y += 0.2 * delta;
 
-      groupEyes.current.rotation.y += 0.1 * delta;
-      refSmile.current.rotation.z += 0.2 * delta;
+      groupEyes.current.rotation.y += -0.4 * delta;
+      refSmile.current.rotation.z += 0.4 * delta;
 
-      refGroup.current.rotation.z += -0.01 * delta;
+      // refGroup.current.rotation.z += -0.01 * delta;
       refGroup.current.rotation.y += 0.05 * increase * delta;
     } catch (error) {}
   });
@@ -38,12 +38,12 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       position={[-0.8, -1.5, 0]}
       rotation={[0.2, 0.1, 0.1]}
      
-      onClick={() => {
-        setIncrease(360);
-        setTimeout(() => {
-          setIncrease(0);
-        }, 200);
-      }}
+      // onClick={() => {
+      //   setIncrease(360);
+      //   setTimeout(() => {
+      //     setIncrease(0);
+      //   }, 200);
+      // }}
     >
       <mesh
         geometry={nodes.smile_high002_fora.geometry}

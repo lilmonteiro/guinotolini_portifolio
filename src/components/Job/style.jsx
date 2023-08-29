@@ -7,6 +7,7 @@ const Container = styled.div`
   box-sizing: border-box;
   width: 100%;
   font-family: "AcidGrotesk";
+  display: flex;
 
   .job-content {
     box-sizing: border-box;
@@ -15,11 +16,14 @@ const Container = styled.div`
     padding-top: 50px;
     padding-bottom: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   }
 
   .title {
     font-weight: 80;
     font-size: 2em;
+    margin-bottom: 5px;
     /* margin: 10 0px 0 0 0; */
   }
 
@@ -27,7 +31,7 @@ const Container = styled.div`
     margin: 20px 0;
     font-weight: 60;
     font-size: 1.2em;
-    padding: 30px 0 ;
+    padding: 30px 0;
     border-bottom: 1px solid #777777;
   }
 
@@ -53,6 +57,7 @@ const Container = styled.div`
   }
 
   @media screen and (min-width: 1500px) {
+    justify-content: center;
     /* padding: 40px 400px; */
     .job-content {
       font-size: 1.2em;

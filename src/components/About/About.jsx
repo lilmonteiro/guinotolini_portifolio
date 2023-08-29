@@ -4,9 +4,7 @@ import { Canvas } from "react-three-fiber";
 import { Experience } from "../Experience/Experience";
 
 const About = () => {
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
-  const [z, setZ] = useState(0);
+ 
   const [cPosition, setCPosition] = useState({ x: 0, y: 0 });
 
   return (
@@ -19,14 +17,14 @@ const About = () => {
     >
       <Canvas
         className="canvas"
-        onPointerMove={(e) => {
-          document.querySelector(".pointer-circle").classList.add("active");
-        }}
-        onPointerOut={(e) => {
-          document.querySelector(".pointer-circle").classList.remove("active");
-        }}
+        // onPointerMove={(e) => {
+        //   document.querySelector(".pointer-circle").classList.add("active");
+        // }}
+        // onPointerOut={(e) => {
+        //   document.querySelector(".pointer-circle").classList.remove("active");
+        // }}
       >
-        <Experience px={-2.5} py={0} z={z} d={-1} />
+        <Experience px={-2.5} py={0} z={0} d={-1} />
         {/* <Experience px={4} py={0} z={z} d={1} /> */}
       </Canvas>
 
@@ -43,14 +41,14 @@ const About = () => {
         <p className="about-text">
           Já trabalhei para as marcas: Consul,
           <br /> Intimus/Kotex, Sky, Liberty Seguros, <br />
-          Brastemp, Consul, Flash Benefícios,
+          Brastemp, Samsung, Flash Benefícios,
           <br /> The Body Shop, Plenitud e Huggies.
         </p>
       </div>
 
-      <div className="pointer-circle">
+      {/* <div className="pointer-circle">
         <p> CLICK ME!</p>
-      </div>
+      </div> */}
     </Container>
   );
 };

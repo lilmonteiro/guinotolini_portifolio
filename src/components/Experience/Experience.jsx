@@ -1,9 +1,7 @@
-import { Stats, OrbitControls, Environment } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
 import { Smile } from "./Smile";
 import {} from "@react-three/drei";
-import React, { useState } from "react";
-import { MeshTransmissionMaterial } from "@react-three/drei";
-import * as THREE from 'three'
+import React from "react";
 
 export const Experience = ({ px, py, x, y, z, d}) => {
   return (

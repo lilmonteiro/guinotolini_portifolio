@@ -9,8 +9,8 @@ const Job = () => {
   const [job, setJob] = useState(null);
 
   useEffect(() => {
-    dataJobs.map((job, i) => {
-      if (job.path == params.job) {
+    dataJobs.forEach((job, i) => {
+      if (job.path === params.job) {
         setJob(job);
       }
     });
@@ -28,7 +28,7 @@ const Job = () => {
 
         {job &&
           job.content.map((content, i) => {
-            if (content.type == "p") {
+            if (content.type === "p") {
               return (
                 <p
                   key={i}
@@ -37,8 +37,8 @@ const Job = () => {
                 ></p>
               );
             }
-            if (content.type == "img") {
-              return <img key={i} className="job" src={content.value} />;
+            if (content.type === "img") {
+              return <img key={i} className="job" src={content.value} alt={content.title} />;
             }
           })}
       </div>

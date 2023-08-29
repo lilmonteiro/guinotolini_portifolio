@@ -46,7 +46,7 @@ const Thumb = (props) => {
       <div className="thumb-row-2">
         <p
           onClick={() => {
-            handleNavigate("thebodyshop");
+            // handleNavigate("thebodyshop");
           }}
         >
           /The Body Shop{" "}

@@ -1,7 +1,8 @@
 [
   {
+    "type": "content",
     "path": "kn2",
-    "title": "KN2",
+    "title": "BRANDING KN2",
     "client": "",
     "content": [
       {
@@ -41,6 +42,80 @@
       { "type": "img", "value": "/images/jobs/kn2/KN2_07.jpg" },
       { "type": "img", "value": "/images/jobs/kn2/KN2_08.jpg" },
       { "type": "img", "value": "/images/jobs/kn2/KN2_09.jpg" }
+    ]
+  },
+  {
+    "type": "content",
+    "path": "joycrock",
+    "title": "JoyCrock",
+    "client": "",
+    "content": [
+      {
+        "type": "p",
+        "value": "Para lançar a Joy Crock, (Franquia de carrinhos de pipoca) desenvolvemos uma <br/> marca que sintetiza em seu nome e logo, o posicionamento estratégico do negócio."
+      },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_01.jpg" },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_02.jpg" },
+      { "type": "p", "value": "Em parceria com a DiAntonio desenvolvemos o carrinho Joy." },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_03.jpg" },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_04.jpg" },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_05.jpg" },
+      { "type": "img", "value": "/images/jobs/joy-crock/Joy_Crock_06.jpg" }
+    ]
+  },
+  {
+    "type": "content",
+    "path": "maestra",
+    "title": "Maestra",
+    "client": "",
+    "content": [
+      {
+        "type": "p",
+        "value": "Para lançar o maestra, (app de gestão de espaços de beleza) desenvolvemos uma marca <br/> que sintetiza em seu logo, o posicionamento estratégico do negócio. Com uma forma simples e objetiva, comunicamos a gestão do negócio na palma da mão do gestor."
+      },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_01.jpg" },
+      { "type": "p", "value": "Afim de manter a unicidade visual do projeto, extraímos das <br/> características do logotipo a base para nossa iconografia." },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_02.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_02_1.jpg" },
+      { "type": "p", "value": "Desenvolvemos um sistema modular e versátil de ilustrações, <br/> flexível o suficiente para acompanhar o crescimento do negócio" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_03.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_03_01.jpg" },
+      { "type": "p", "value": "Desenvolvemos a plataforma de vendas em <br/> formato responsivo, respeitando o First mobile." },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_04.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_05.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_06.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_07.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_08.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_09.jpg" },
+      { "type": "img", "value": "/images/jobs/maestra/maestra_10.jpg" }
+    ]
+  },
+  {
+    "type": "images",
+    "path": "estadao",
+    "title": "Estadão",
+    "client": "",
+    "content": [
+      {
+        "type": "img",
+        "value": "/images/jobs/averdadesobreasmentiras/a-verdade-sobre-as-mentiras_01.jpg"
+      },
+      {
+        "type": "img",
+        "value": "/images/jobs/averdadesobreasmentiras/a-verdade-sobre-as-mentiras_02.jpg"
+      },
+      {
+        "type": "img",
+        "value": "/images/jobs/averdadesobreasmentiras/a-verdade-sobre-as-mentiras_03.jpg"
+      },
+      {
+        "type": "img",
+        "value": "/images/jobs/averdadesobreasmentiras/a-verdade-sobre-as-mentiras_04.jpg"
+      },
+      {
+        "type": "img",
+        "value": "/images/jobs/averdadesobreasmentiras/a-verdade-sobre-as-mentiras_05.jpg"
+      }
     ]
   }
 ]
