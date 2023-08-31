@@ -51,9 +51,17 @@ const Container = styled.div`
     align-items: center;
     margin-top: 20px;
     width: fit-content;
-    padding: 0 5px;
     box-sizing: border-box;
     gap: 5px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    svg{
+      width: 20px;
+      height: 20px;
+      fill: black;
+    }
   }
 
   .about-curriculo:hover {
@@ -125,7 +133,12 @@ const Container = styled.div`
 
     .about-curriculo {
       font-size: .8em;
-      padding: 0;
+      padding: 10px;
+
+      svg{
+        width: 15px;
+        height: 15px;
+      }
     }
     
     .about-curriculo:hover {

@@ -61,6 +61,9 @@ const Container = styled.div`
       font-weight: 50;
     }
 
+    .contact-container.row{
+     margin-top: 25vh;
+    }
 
     .contact-container.column {
       height: 80vh;
@@ -70,7 +73,7 @@ const Container = styled.div`
 
     .spaced-number {
       display: flex;
-      justify-content: start;
+      justify-content: space-between;
     }
   }
 `;
