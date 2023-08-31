@@ -40,19 +40,29 @@ const Container = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+
     .job-content {
-      padding: 20px;
+      padding: 0px;
     }
     .title {
+      margin-top: 50px;
       font-size: 1.2em;
+      box-sizing: border-box;
+      padding: 20px 20px;
+      padding-bottom: 0;
     }
-
     .client {
       font-size: 1em;
     }
     .paragraph {
-      font-size: 1em;
+      font-size: .9em;
       width: 100%;
+      padding: 10px 20px;
+      box-sizing: border-box;
+
+      br{
+        display: none;
+      }
     }
   }
 

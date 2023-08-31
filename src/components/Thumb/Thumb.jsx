@@ -32,7 +32,7 @@ const Thumb = (props) => {
               handleNavigate("kn2");
             }}
           >
-            KN2/ <img className="thumb-img" id="kn2" src="/images/jobs/2.png" alt="KNZ Cannabis" />
+            KN2<span className="bar">/</span> <img className="thumb-img" id="kn2" src="/images/jobs/2.png" alt="KNZ Cannabis" />
           </p>
           <p
             onClick={() => {
@@ -46,10 +46,10 @@ const Thumb = (props) => {
       <div className="thumb-row-2">
         <p
           onClick={() => {
-            // handleNavigate("thebodyshop");
+            handleNavigate("aon");
           }}
         >
-          /The Body Shop{" "}
+          Dia a dia (AON){" "}
           <img id="tbs" className="thumb-img" src="/images/jobs/4.png" alt="The Body Shop" />
         </p>
         <p
@@ -57,7 +57,7 @@ const Thumb = (props) => {
             handleNavigate("maestra");
           }}
         >
-          /Maestra <img id="maestra" className="thumb-img" src="/images/jobs/5.png" alt="Maestra" />
+          <span className="bar">/</span>Maestra <img id="maestra" className="thumb-img" src="/images/jobs/5.png" alt="Maestra" />
         </p>
       </div>
     </ThumbContainer>

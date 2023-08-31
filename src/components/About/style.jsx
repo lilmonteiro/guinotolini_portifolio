@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "../../utils/colors.json";
 
 const Container = styled.div`
   display: flex;
@@ -16,7 +17,6 @@ const Container = styled.div`
     width: 70% !important;
     /* height: 70% !important; */
     overflow: visible !important;
-    /* background-color: red; */
     > * {
       overflow: visible !important;
     }
@@ -38,8 +38,26 @@ const Container = styled.div`
     font-family: "AcidGrotesk";
     font-weight: 40;
     font-size: 2em;
-  color: black;
+    color: black;
     white-space: nowrap;
+  }
+
+  .about-curriculo {
+    font-size: 0.5em;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 0 5px;
+    box-sizing: border-box;
+    gap: 5px;
+  }
+
+  .about-curriculo:hover {
+    background-color: ${colors["main-green"]};
   }
 
   .pointer-circle {
@@ -57,13 +75,13 @@ const Container = styled.div`
     border-radius: 50%;
     pointer-events: none;
     transition: tranform 0.1s ease-out;
-    p{
+    p {
       display: block;
       text-align: center;
       color: #4f4f4f;
       font-family: "AcidGrotesk";
       font-weight: 100;
-      font-size: .5em;
+      font-size: 0.5em;
     }
   }
 
@@ -82,20 +100,36 @@ const Container = styled.div`
   @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     padding: 20px;
-    height: 50vh;
+    height: auto;
+    max-height: 100vh;
 
     .canvas {
-      display: none;
+      /* display: none; */
+      /* background-color: #ff000070; */
+      height: 30% !important;
+      width: 100% !important;
+      transform: translateX(5%) translateY(-5%);
     }
 
     .about-column {
       gap: 20px;
-      /* width: 100%; */
+      right: unset;
+      position: relative;
     }
+
     .about-text {
       font-size: 1.2em;
+    }
+
+    .about-curriculo {
+      font-size: .8em;
+      padding: 0;
+    }
+    
+    .about-curriculo:hover {
+      background-color: unset;
     }
   }
 `;

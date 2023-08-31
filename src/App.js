@@ -7,7 +7,7 @@ import Thumb from "./components/Thumb/Thumb";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: colors["main-background"] }}>
+    <div className="App">
       <Header />
       <About />
       <Thumb />

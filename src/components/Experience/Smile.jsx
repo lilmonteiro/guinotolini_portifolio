@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
+import { useEffect } from "react";
 
 export function Smile({ px, py, x, y, z, d, ...props }) {
   const { nodes, materials } = useGLTF("/models/smiley/smile-separate.gltf");
@@ -10,6 +11,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
   const refSmile = useRef();
   const refGroup = useRef();
   const groupEyes = useRef();
+  const [scale, setScale] = useState(0.45);
 
   useFrame((_, delta) => {
     try {
@@ -28,6 +30,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
     } catch (error) {}
   });
 
+
   return (
     <group
       // {...props}
@@ -37,7 +40,7 @@ export function Smile({ px, py, x, y, z, d, ...props }) {
       scale={0.45}
       position={[-0.8, -1.5, 0]}
       rotation={[0.2, 0.1, 0.1]}
-     
+
       // onClick={() => {
       //   setIncrease(360);
       //   setTimeout(() => {

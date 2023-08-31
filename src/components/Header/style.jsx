@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "../../utils/colors.json"
 
 const Container = styled.div`
   display: flex;
@@ -8,6 +9,7 @@ const Container = styled.div`
   height: 100vh;
   padding-top: 50px;
   box-sizing: border-box;
+  background-color: ${colors["main-background"]};
 
   .baloons {
     margin-top: auto;

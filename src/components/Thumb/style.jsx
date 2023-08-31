@@ -90,4 +90,32 @@ export const ThumbContainer = styled.div`
     top: -250%;
     right: 75%;
   }
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    height: 80vh;
+    gap: 20px;
+    padding: 0 40px;
+    overflow: hidden;
+
+    .thumb-row-1,
+    .thumb-row-2 {
+
+    font-size: 2.5em;
+      justify-content: start;
+      flex-direction: column;
+      text-align: start;
+      gap: 20px;
+    }
+
+    .thumb-column-2 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .bar{
+      display: none;
+    }
+  }
 `;
