@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7f89f02e.css",
-    "main.js": "/static/js/main.7ed5ac0e.js",
+    "main.js": "/static/js/main.420a86df.js",
     "static/media/AcidGrotesk.ttf": "/static/media/AcidGrotesk.b6b87fb4fc645aabf7e2.ttf",
     "index.html": "/index.html",
     "main.7f89f02e.css.map": "/static/css/main.7f89f02e.css.map",
-    "main.7ed5ac0e.js.map": "/static/js/main.7ed5ac0e.js.map"
+    "main.420a86df.js.map": "/static/js/main.420a86df.js.map"
   },
   "entrypoints": [
     "static/css/main.7f89f02e.css",
-    "static/js/main.7ed5ac0e.js"
+    "static/js/main.420a86df.js"
   ]
 }
